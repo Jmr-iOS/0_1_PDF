@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
 
     
-    func optDemo_addButton(_ view:UIView) {
+    @objc func optDemo_addButton(_ view:UIView) {
         
         let button      : UIButton  = UIButton(type: UIButtonType.system) as UIButton;
         let buttonWidth : CGFloat   = 300;
@@ -70,7 +70,7 @@ class ViewController: UIViewController {
     }
     
 
-    func makeAMonsterousLabel(_ view:UIView) {
+    @objc func makeAMonsterousLabel(_ view:UIView) {
         
         let myFirstLabel  = UILabel();
 
@@ -104,7 +104,7 @@ class ViewController: UIViewController {
     }
 */
     
-    func myButton_response(_ sender: UIButton!) {
+    @objc func myButton_response(_ sender: UIButton!) {
 
         print("Button Response fired. Game on!");
         
